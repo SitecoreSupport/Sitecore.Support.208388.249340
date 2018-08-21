@@ -60,8 +60,8 @@
     <None Include="web.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="sitecore\shell\Controls\Rich Text Editor\Localization\RadEditor.Dialogs.ja-JP.resx" />
-    <EmbeddedResource Include="sitecore\shell\Controls\Rich Text Editor\Localization\RadEditor.Dialogs.resx" />
+    <AdditionalFiles Include="sitecore\shell\Controls\Rich Text Editor\Localization\RadEditor.Dialogs.ja-JP.resx" />
+    <AdditionalFiles Include="sitecore\shell\Controls\Rich Text Editor\Localization\RadEditor.Dialogs.resx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
